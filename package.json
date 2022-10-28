@@ -7,7 +7,7 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
   },
-  "author": "EWebik",
+  "author": "Yocary",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
