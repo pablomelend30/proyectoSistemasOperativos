@@ -5,9 +5,9 @@ var webpackConfig = require('../webpack.config');
 var badyParser = require("body-parser");
 
 var app = express();
-app.set('port', (process.env.PORT || 4000));
+app.set('port', (process.env.PORT || 3000));
 
-app.use('/static', express.static('dist'));
+app.use('/static', express.static('cliente'));
 app.use(badyParser.json());
 app.use(badyParser.urlencoded({ extended: true }));
 app.use(webpackDevMiddleware(webpack(webpackConfig)));
