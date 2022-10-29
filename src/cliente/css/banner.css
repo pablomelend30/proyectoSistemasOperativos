@@ -87,8 +87,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
-
+    background-image: url("/static/img/inst1.jpg");
 }
 
 .inst_cont_banner_sec_3 .row{
