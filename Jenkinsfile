@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'node src/server.js'
+                sh 'node --version'
             }
         }
     }
