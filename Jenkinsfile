@@ -6,5 +6,13 @@ pipeline {
                 sh 'node --version'
             }
         }
+        stage('Install Packages (Node.js)') {
+            steps {
+			    nodejs(
+			        nodeJSInstallationName: 'nodejs10') {
+			      sh "npm install"
+			    }
+            }
+        }
     }
 }
