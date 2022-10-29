@@ -7,7 +7,7 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
-  "author": "Yocary",
+  "author": "Yocary Coronado",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
